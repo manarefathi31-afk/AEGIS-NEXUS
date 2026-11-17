@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: blob:; img-src 'self' data: blob:;" />
+  <title>AEGIS NEXUS — ALGERIAN CYBER DEFENSE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cinematic Loading Screen -->
+  <div id="splash-screen" class="splash-screen" aria-live="polite">
+    <div class="splash-bg-grid"></div>
+    <div class="splash-content">
+      <div class="splash-flag-row">
+        <span class="dz-flag-svg" aria-hidden="true">
+          <svg viewBox="0 0 36 24" width="38" height="25">
+            <rect x="0" y="0" width="18" height="24" fill="#006233"/>
+            <rect x="18" y="0" width="18" height="24" fill="#FFFFFF"/>
+            <path d="M21.2 6.8a6 6 0 1 0 0 10.4 4.8 4.8 0 1 1 0-10.4z" fill="#D21034"/>
+            <polygon points="21.5,12 19.6,12.6 20.8,11 19.6,9.4 21.5,10 22.7,8.4 22.7,10.4 24.5,11 22.7,11.6 22.7,13.6" fill="#D21034" transform="translate(-0.7, 0.9) scale(0.95)"/>
+          </svg>
+        </span>
+        <span class="splash-republic" data-i18n="identity_badge">ALGERIAN CYBER DEFENSE</span>
+      </div>
+
+      <div class="splash-emblem-wrap">
+        <div class="radar-ring ring-1"></div>
+        <div class="radar-ring ring-2"></div>
+        <svg class="eagle-shield-svg animated-shield" viewBox="0 0 240 220" width="190" height="175" role="img" aria-label="AEGIS NEXUS Algerian Cyber Shield">
+          <defs>
+            <linearGradient id="spMetalRim" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#F8FAFC"/>
+              <stop offset="35%" stop-color="#94A3B8"/>
+              <stop offset="65%" stop-color="#E2E8F0"/>
+              <stop offset="100%" stop-color="#334155"/>
+            </linearGradient>
+            <linearGradient id="spGreen" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#008542"/>
+              <stop offset="100%" stop-color="#004722"/>
+            </linearGradient>
+            <linearGradient id="spWhite" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#FFFFFF"/>
+              <stop offset="100%" stop-color="#D8E3F0"/>
+            </linearGradient>
+            <linearGradient id="spWing" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#E2E8F0"/>
+              <stop offset="60%" stop-color="#7D93AE"/>
+              <stop offset="100%" stop-color="#1E3A5F"/>
+            </linearGradient>
+            <linearGradient id="spShine" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.32"/>
+              <stop offset="48%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+              <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.0"/>
+            </linearGradient>
+            <clipPath id="spShieldClip">
+              <path d="M120 44 L167 61 V112 C167 148 145 174 120 187 C95 174 73 148 73 112 V61 Z"/>
+            </clipPath>
+            <mask id="spCrescentMask">
+              <rect x="0" y="0" width="240" height="220" fill="black"/>
+              <circle cx="118" cy="113" r="24" fill="white"/>
+              <circle cx="125" cy="113" r="19.2" fill="black"/>
+            </mask>
+          </defs>
+          <circle cx="120" cy="112" r="88" fill="none" stroke="#00E5FF" stroke-opacity="0.28" stroke-width="1.2" stroke-dasharray="8 5"/>
+          <circle cx="120" cy="112" r="72" fill="none" stroke="#00E5FF" stroke-opacity="0.45" stroke-width="1"/>
+          <path d="M74 78 L16 48 L32 69 L20 75 L42 90 L30 96 L54 109 L72 117 Z" fill="url(#spWing)" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="0.9"/>
+          <path d="M166 78 L224 48 L208 69 L220 75 L198 90 L210 96 L186 109 L168 117 Z" fill="url(#spWing)" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="0.9"/>
+          <path d="M107 40 L120 19 L133 40 L126 42 L120 33 L114 42 Z" fill="url(#spMetalRim)" stroke="#00E5FF" stroke-width="0.8"/>
+          <path d="M120 35 L176 55 V113 C176 154 150 183 120 197 C90 183 64 154 64 113 V55 Z" fill="url(#spMetalRim)" stroke="#00E5FF" stroke-width="1.8"/>
+          <g clip-path="url(#spShieldClip)">
+            <rect x="70" y="40" width="50" height="152" fill="url(#spGreen)"/>
+            <rect x="120" y="40" width="50" height="152" fill="url(#spWhite)"/>
+            <circle cx="118" cy="113" r="24" fill="#D21034" mask="url(#spCrescentMask)"/>
+            <polygon points="128.5,103 130.85,109.76 138.01,109.91 132.3,114.24 134.38,121.09 128.5,117 122.62,121.09 124.7,114.24 118.99,109.91 126.15,109.76" fill="#D21034"/>
+            <polygon points="70,40 170,40 120,130 70,95" fill="url(#spShine)"/>
+          </g>
+          <g transform="translate(36, 30)" opacity="0.85">
+            <rect x="0" y="7" width="14" height="11" rx="2.5" fill="#0B2447" stroke="#00E5FF" stroke-width="1.4"/>
+            <path d="M3.5 7 V4.5 A3.5 3.5 0 0 1 10.5 4.5 V7" fill="none" stroke="#00E5FF" stroke-width="1.4"/>
+          </g>
+          <g transform="translate(190, 30)" opacity="0.85">
+            <rect x="0" y="7" width="14" height="11" rx="2.5" fill="#0B2447" stroke="#00E5FF" stroke-width="1.4"/>
+            <path d="M3.5 7 V4.5 A3.5 3.5 0 0 1 10.5 4.5 V7" fill="none" stroke="#00E5FF" stroke-width="1.4"/>
+          </g>
+        </svg>
+      </div>
+
+      <h1 class="splash-title">AEGIS NEXUS</h1>
+      <p class="splash-tagline" data-i18n="tagline">YOUR DEVICE. YOUR DATA. YOUR DIGITAL FORTRESS.</p>
+
+      <div class="splash-progress-track">
+        <div id="splash-progress-bar" class="splash-progress-bar"></div>
+      </div>
+      <div id="splash-status-text" class="splash-status" data-i18n="splash_init">Initializing offline security core...</div>
+    </div>
+  </div>
+
+  <!-- App Shell -->
+  <div id="app-shell" class="app-shell">
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <aside id="sidebar" class="sidebar" aria-label="Primary Navigation">
+      <div class="sidebar-brand">
+        <div class="brand-emblem-mini">
+          <svg viewBox="0 0 120 132" width="38" height="42" aria-hidden="true">
+            <defs>
+              <clipPath id="sbShieldClip">
+                <path d="M60 18 L100 32 V68 C100 94 82 112 60 121 C38 112 20 94 20 68 V32 Z"/>
+              </clipPath>
+              <mask id="sbCrescentMask">
+                <rect x="0" y="0" width="120" height="132" fill="black"/>
+                <circle cx="58" cy="68" r="18" fill="white"/>
+                <circle cx="63" cy="68" r="14.2" fill="black"/>
+              </mask>
+            </defs>
+            <path d="M60 11 L106 28 V68 C106 98 86 118 60 128 C34 118 14 98 14 68 V28 Z" fill="#94A3B8" stroke="#00E5FF" stroke-width="2.5"/>
+            <g clip-path="url(#sbShieldClip)">
+              <rect x="18" y="16" width="42" height="110" fill="#006233"/>
+              <rect x="60" y="16" width="42" height="110" fill="#FFFFFF"/>
+              <circle cx="58" cy="68" r="18" fill="#D21034" mask="url(#sbCrescentMask)"/>
+              <polygon points="66,60 67.8,65.2 73.2,65.3 68.9,68.6 70.5,73.8 66,70.7 61.5,73.8 63.1,68.6 58.8,65.3 64.2,65.2" fill="#D21034"/>
+            </g>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="brand-name-row">
+            <span class="brand-name">AEGIS NEXUS</span>
+            <span class="flag-inline" title="Algeria">🇩🇿</span>
+          </div>
+          <span class="brand-sub">ALGERIAN CYBER DEFENSE</span>
+        </div>
+      </div>
+
+      <nav class="nav-list">
+        <button class="nav-item active" data-page="dashboard"><span class="nav-icon">◈</span><span data-i18n="nav_dashboard">لوحة القيادة</span></button>
+        <button class="nav-item" data-page="device"><span class="nav-icon">⛨</span><span data-i18n="nav_device">حماية الجهاز</span></button>
+        <button class="nav-item" data-page="apps"><span class="nav-icon">◫</span><span data-i18n="nav_apps">فاحص التطبيقات</span></button>
+        <button class="nav-item" data-page="network"><span class="nav-icon">◉</span><span data-i18n="nav_network">أمن الشبكة</span></button>
+        <button class="nav-item" data-page="privacy"><span class="nav-icon">◎</span><span data-i18n="nav_privacy">مركز الخصوصية</span></button>
+        <button class="nav-item" data-page="threats"><span class="nav-icon">☢</span><span data-i18n="nav_threats">استخبارات التهديدات</span></button>
+        <button class="nav-item" data-page="alerts"><span class="nav-icon">⚑</span><span data-i18n="nav_alerts">التنبيهات الأمنية</span></button>
+        <button class="nav-item" data-page="vault"><span class="nav-icon">⚿</span><span data-i18n="nav_vault">حماية البيانات</span></button>
+        <button class="nav-item" data-page="recovery"><span class="nav-icon">⟲</span><span data-i18n="nav_recovery">مركز الاستعادة</span></button>
+        <button class="nav-item" data-page="monitor"><span class="nav-icon">▤</span><span data-i18n="nav_monitor">مراقب النظام</span></button>
+        <button class="nav-item" data-page="settings"><span class="nav-icon">⚙</span><span data-i18n="nav_settings">الإعدادات</span></button>
+        <button class="nav-item" data-page="about"><span class="nav-icon">★</span><span data-i18n="nav_about">حول النظام</span></button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="dz-accent-bar"><span class="dz-g"></span><span class="dz-w"></span><span class="dz-r"></span></div>
+        <div class="motto-mini" data-i18n="motto">ONE DEVICE. MULTIPLE DEFENSE LAYERS. ONE POWERFUL SHIELD.</div>
+      </div>
+    </aside>
+
+    <div class="main-area">
+      <header class="topbar">
+        <div class="topbar-start">
+          <button id="menu-toggle" class="icon-btn" aria-label="Menu">☰</button>
+          <div class="header-identity">
+            <span class="dz-flag-mini" aria-hidden="true">
+              <svg viewBox="0 0 36 24" width="24" height="16">
+                <rect x="0" y="0" width="18" height="24" fill="#006233"/>
+                <rect x="18" y="0" width="18" height="24" fill="#FFFFFF"/>
+                <path d="M21.2 6.8a6 6 0 1 0 0 10.4 4.8 4.8 0 1 1 0-10.4z" fill="#D21034"/>
+                <polygon points="21.5,12 19.6,12.6 20.8,11 19.6,9.4 21.5,10 22.7,8.4 22.7,10.4 24.5,11 22.7,11.6 22.7,13.6" fill="#D21034" transform="translate(-0.7, 0.9) scale(0.95)"/>
+              </svg>
+            </span>
+            <span class="header-eagle" aria-hidden="true">🦅</span>
+            <div class="header-titles">
+              <strong>AEGIS NEXUS</strong>
+              <small id="current-page-label" data-i18n="nav_dashboard">لوحة القيادة</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="topbar-end">
+          <span id="bridge-badge" class="pill pill-warn">WEB PREVIEW</span>
+          <span id="online-badge" class="pill pill-offline">OFFLINE</span>
+          <select id="lang-select" class="lang-select" aria-label="Language">
+            <option value="ar">AR</option>
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+          </select>
+          <button id="alert-bell-btn" class="icon-btn bell-btn" aria-label="Security Alerts">
+            ⚑ <span id="alert-badge-count" class="badge-count">0</span>
+          </button>
+          <button id="btn-quick-scan" class="btn btn-primary btn-sm" data-i18n="btn_scan_now">فحص فوري</button>
+        </div>
+      </header>
+
+      <main class="content-area">
+        <!-- 1. DASHBOARD -->
+        <section id="page-dashboard" class="page active">
+          <div class="hero-card glass-card hero-cyber-banner">
+            <svg class="hero-backdrop-svg" viewBox="0 0 900 280" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="skyGlow" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#0E3868" stop-opacity="0.55"/>
+                  <stop offset="65%" stop-color="#071936" stop-opacity="0.35"/>
+                  <stop offset="100%" stop-color="#040914" stop-opacity="0.9"/>
+                </linearGradient>
+              </defs>
+              <rect width="900" height="280" fill="url(#skyGlow)"/>
+              <g stroke="#00E5FF" stroke-opacity="0.16" stroke-width="1">
+                <line x1="0" y1="220" x2="900" y2="220"/>
+                <line x1="0" y1="242" x2="900" y2="242"/>
+                <line x1="0" y1="265" x2="900" y2="265"/>
+                <line x1="450" y1="190" x2="120" y2="280"/>
+                <line x1="450" y1="190" x2="290" y2="280"/>
+                <line x1="450" y1="190" x2="610" y2="280"/>
+                <line x1="450" y1="190" x2="780" y2="280"/>
+              </g>
+              <g fill="#0A2346" fill-opacity="0.72" stroke="#00E5FF" stroke-opacity="0.22" stroke-width="1">
+                <path d="M128 220 Q138 145 150 76 L156 76 Q147 148 145 220 Z"/>
+                <path d="M174 220 Q164 145 152 76 L158 76 Q165 148 160 220 Z"/>
+                <path d="M148 220 L151 112 L155 112 L158 220 Z"/>
+                <rect x="30" y="165" width="34" height="55"/>
+                <rect x="74" y="148" width="28" height="72"/>
+                <rect x="210" y="172" width="42" height="48"/>
+                <rect x="690" y="145" width="38" height="75"/>
+                <rect x="742" y="162" width="30" height="58"/>
+                <rect x="786" y="128" width="34" height="92"/>
+                <rect x="832" y="156" width="44" height="64"/>
+              </g>
+              <g transform="translate(275, 42)" opacity="0.55">
+                <rect x="0" y="10" width="20" height="16" rx="3" fill="#0B2A4A" stroke="#00E5FF" stroke-width="1.6"/>
+                <path d="M5 10 V6 A5 5 0 0 1 15 6 V10" fill="none" stroke="#00E5FF" stroke-width="1.6"/>
+              </g>
+              <g transform="translate(650, 56)" opacity="0.65">
+                <rect x="0" y="12" width="24" height="18" rx="3.5" fill="#0B2A4A" stroke="#00E5FF" stroke-width="1.8"/>
+                <path d="M6 12 V7 A6 6 0 0 1 18 7 V12" fill="none" stroke="#00E5FF" stroke-width="1.8"/>
+              </g>
+            </svg>
+
+            <div class="hero-emblem-col">
+              <div class="hero-shield-glow">
+                <svg class="eagle-shield-svg animated-shield" viewBox="0 0 240 220" width="166" height="152" aria-label="AEGIS NEXUS Algerian Shield">
+                  <defs>
+                    <linearGradient id="hrMetalRim" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#FFFFFF"/>
+                      <stop offset="35%" stop-color="#94A3B8"/>
+                      <stop offset="70%" stop-color="#E2E8F0"/>
+                      <stop offset="100%" stop-color="#334155"/>
+                    </linearGradient>
+                    <linearGradient id="hrGreen" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#008C45"/>
+                      <stop offset="100%" stop-color="#004722"/>
+                    </linearGradient>
+                    <linearGradient id="hrWhite" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#FFFFFF"/>
+                      <stop offset="100%" stop-color="#DCE6F2"/>
+                    </linearGradient>
+                    <linearGradient id="hrWing" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#E2E8F0"/>
+                      <stop offset="65%" stop-color="#64748B"/>
+                      <stop offset="100%" stop-color="#1E3A5F"/>
+                    </linearGradient>
+                    <linearGradient id="hrShine" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+                      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+                      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+                    </linearGradient>
+                    <clipPath id="hrShieldClip">
+                      <path d="M120 44 L167 61 V112 C167 148 145 174 120 187 C95 174 73 148 73 112 V61 Z"/>
+                    </clipPath>
+                    <mask id="hrCrescentMask">
+                      <rect x="0" y="0" width="240" height="220" fill="black"/>
+                      <circle cx="118" cy="113" r="24" fill="white"/>
+                      <circle cx="125" cy="113" r="19.2" fill="black"/>
+                    </mask>
+                  </defs>
+                  <circle cx="120" cy="112" r="92" fill="none" stroke="#00E5FF" stroke-opacity="0.35" stroke-width="1.3" stroke-dasharray="10 5"/>
+                  <circle cx="120" cy="112" r="76" fill="none" stroke="#00E5FF" stroke-opacity="0.55" stroke-width="1.1"/>
+                  <path d="M74 78 L16 48 L32 69 L20 75 L42 90 L30 96 L54 109 L72 117 Z" fill="url(#hrWing)" stroke="#00E5FF" stroke-opacity="0.6" stroke-width="0.9"/>
+                  <path d="M166 78 L224 48 L208 69 L220 75 L198 90 L210 96 L186 109 L168 117 Z" fill="url(#hrWing)" stroke="#00E5FF" stroke-opacity="0.6" stroke-width="0.9"/>
+                  <path d="M107 40 L120 19 L133 40 L126 42 L120 33 L114 42 Z" fill="url(#hrMetalRim)" stroke="#00E5FF" stroke-width="0.9"/>
+                  <path d="M120 35 L176 55 V113 C176 154 150 183 120 197 C90 183 64 154 64 113 V55 Z" fill="url(#hrMetalRim)" stroke="#00E5FF" stroke-width="2"/>
+                  <g clip-path="url(#hrShieldClip)">
+                    <rect x="70" y="40" width="50" height="152" fill="url(#hrGreen)"/>
+                    <rect x="120" y="40" width="50" height="152" fill="url(#hrWhite)"/>
+                    <circle cx="118" cy="113" r="24" fill="#D21034" mask="url(#hrCrescentMask)"/>
+                    <polygon points="128.5,103 130.85,109.76 138.01,109.91 132.3,114.24 134.38,121.09 128.5,117 122.62,121.09 124.7,114.24 118.99,109.91 126.15,109.76" fill="#D21034"/>
+                    <polygon points="70,40 170,40 120,130 70,95" fill="url(#hrShine)"/>
+                  </g>
+                </svg>
+              </div>
+            </div>
+
+            <div class="hero-info-col">
+              <div class="hero-meta-row">
+                <span class="dz-chip">🇩🇿🦅 AEGIS NEXUS — ALGERIAN CYBER DEFENSE</span>
+                <span id="overall-status-badge" class="status-badge state-unavailable">UNAVAILABLE</span>
+              </div>
+              <h2 id="overall-status-title" data-i18n="dash_title_init">جاري التحقق من الجاهزية الأمنية</h2>
+              <p id="overall-status-desc" data-i18n="dash_desc_honest">يعتمد التقييم الأمني حصراً على البيانات الحقيقية المتاحة من النظام. لا يتم اختلاق أي أرقام أو درجات حماية.</p>
+              <div class="hero-footer-meta">
+                <span><strong data-i18n="lbl_last_scan">آخر فحص:</strong> <span id="last-scan-time">—</span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="kpi-grid">
+            <div class="kpi-card glass-card" data-jump="device">
+              <div class="kpi-head"><span data-i18n="nav_device">حماية الجهاز</span><span id="dash-device-state" class="status-badge state-unavailable">UNAVAILABLE</span></div>
+              <p class="kpi-sub" id="dash-device-sub">—</p>
+            </div>
+            <div class="kpi-card glass-card" data-jump="apps">
+              <div class="kpi-head"><span data-i18n="nav_apps">فاحص التطبيقات</span><span id="dash-apps-state" class="status-badge state-unavailable">UNAVAILABLE</span></div>
+              <p class="kpi-sub" id="dash-apps-sub">—</p>
+            </div>
+            <div class="kpi-card glass-card" data-jump="network">
+              <div class="kpi-head"><span data-i18n="nav_network">أمن الشبكة</span><span id="dash-network-state" class="status-badge state-unavailable">UNAVAILABLE</span></div>
+              <p class="kpi-sub" id="dash-network-sub">—</p>
+            </div>
+            <div class="kpi-card glass-card" data-jump="privacy">
+              <div class="kpi-head"><span data-i18n="nav_privacy">مركز الخصوصية</span><span id="dash-privacy-state" class="status-badge state-unavailable">UNAVAILABLE</span></div>
+              <p class="kpi-sub" id="dash-privacy-sub">—</p>
+            </div>
+            <div class="kpi-card glass-card" data-jump="threats">
+              <div class="kpi-head"><span data-i18n="nav_threats">استخبارات التهديدات</span><span id="dash-threat-state" class="status-badge state-protected">READY</span></div>
+              <p class="kpi-sub" id="dash-threat-sub">—</p>
+            </div>
+            <div class="kpi-card glass-card" data-jump="alerts">
+              <div class="kpi-head"><span data-i18n="nav_alerts">التنبيهات الأمنية</span><span id="dash-alerts-count" class="status-badge state-info">0</span></div>
+              <p class="kpi-sub" id="dash-alerts-sub">—</p>
+            </div>
+          </div>
+
+          <div class="two-col-grid">
+            <div class="glass-card panel-card">
+              <h3 class="panel-title" data-i18n="dash_telemetry_chart">التوزيع الفعلي للوحدات الأمنية</h3>
+              <canvas id="dash-health-canvas" width="480" height="220"></canvas>
+            </div>
+            <div class="glass-card panel-card">
+              <h3 class="panel-title" data-i18n="dash_recommendations">التوصيات الأمنية</h3>
+              <ul id="dash-recommendations-list" class="clean-list"></ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. NEXUS GUARD -->
+        <section id="page-device" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>⛨ NEXUS GUARD — <span data-i18n="nav_device">حماية الجهاز</span></h2>
+              <p data-i18n="device_subtitle">فحص إعدادات أندرويد الحقيقية، مستوى التصحيح الأمني، التشفير وقفل الشاشة.</p>
+            </div>
+            <div class="action-row">
+              <button id="btn-scan-device" class="btn btn-primary" data-i18n="btn_inspect_device">فحص الجهاز</button>
+              <button id="btn-export-device-report" class="btn btn-secondary" data-i18n="btn_export_report">تصدير التقرير</button>
+            </div>
+          </div>
+          <div id="device-specs-grid" class="info-grid"></div>
+          <div class="glass-card panel-card">
+            <h3 class="panel-title" data-i18n="device_config_analysis">تحليل إعدادات الأمان</h3>
+            <div id="device-checks-list" class="stack-list"></div>
+          </div>
+        </section>
+
+        <!-- 3. NEXUS APP SCAN -->
+        <section id="page-apps" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>◫ NEXUS APP SCAN — <span data-i18n="nav_apps">فاحص التطبيقات</span></h2>
+              <p data-i18n="apps_subtitle">تدقيق التطبيقات المثبتة، مصدر التثبيت، والصلاحيات الحساسة ضمن قيود حزم أندرويد.</p>
+            </div>
+            <button id="btn-scan-apps" class="btn btn-primary" data-i18n="btn_scan_apps">فحص التطبيقات</button>
+          </div>
+          <div class="glass-card toolbar-card">
+            <input type="search" id="app-search-input" class="input-field" data-i18n-placeholder="ph_search_apps" placeholder="بحث بالاسم أو الحزمة..." />
+            <select id="app-filter-select" class="input-field select-compact">
+              <option value="ALL" data-i18n="filter_all">الكل</option>
+              <option value="HIGH" data-i18n="filter_high">صلاحيات حساسة مرتفعة</option>
+              <option value="SIDELOADED" data-i18n="filter_sideloaded">خارج المتجر</option>
+            </select>
+          </div>
+          <div id="apps-summary-bar" class="summary-strip"></div>
+          <div id="apps-list" class="stack-list"></div>
+        </section>
+
+        <!-- 4. NEXUS NETWORK -->
+        <section id="page-network" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>◉ NEXUS NETWORK — <span data-i18n="nav_network">أمن الشبكة</span></h2>
+              <p data-i18n="network_subtitle">مراقبة اتصال Wi-Fi والبيانات، تحليل DNS، وحماية VPN المحلية الاختيارية.</p>
+            </div>
+            <div class="action-row">
+              <button id="btn-scan-network" class="btn btn-primary" data-i18n="btn_check_network">فحص الشبكة</button>
+              <button id="btn-toggle-vpn" class="btn btn-accent"><span id="vpn-status-label" data-i18n="btn_enable_vpn">تفعيل VPN المحلي</span></button>
+            </div>
+          </div>
+          <div id="network-status-grid" class="info-grid"></div>
+          <div class="glass-card panel-card">
+            <h3 class="panel-title" data-i18n="network_recs">توصيات الاتصال الآمن</h3>
+            <ul id="network-recommendations" class="clean-list"></ul>
+          </div>
+        </section>
+
+        <!-- 5. NEXUS PRIVACY -->
+        <section id="page-privacy" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>◎ NEXUS PRIVACY — <span data-i18n="nav_privacy">مركز الخصوصية</span></h2>
+              <p data-i18n="privacy_subtitle">تدقيق أذونات الكاميرا، الميكروفون، الموقع، جهات الاتصال، التخزين والرسائل مع رابط مباشر للإعدادات.</p>
+            </div>
+            <div class="action-row">
+              <button id="btn-audit-privacy" class="btn btn-primary" data-i18n="btn_audit_privacy">تدقيق الصلاحيات</button>
+              <button id="btn-open-app-settings" class="btn btn-secondary" data-i18n="btn_android_settings">إعدادات أندرويد</button>
+            </div>
+          </div>
+          <div id="privacy-categories-grid" class="kpi-grid"></div>
+        </section>
+
+        <!-- 6. NEXUS THREAT -->
+        <section id="page-threats" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>☢ NEXUS THREAT — <span data-i18n="nav_threats">استخبارات التهديدات</span></h2>
+              <p data-i18n="threats_subtitle">فحص الملفات المختارة محلياً عبر SHA-256 وتحليل المؤشرات وقواعد التهديد بدون اتصال.</p>
+            </div>
+            <div class="action-row">
+              <input type="file" id="file-scan-input" hidden />
+              <button id="btn-trigger-file-scan" class="btn btn-primary" data-i18n="btn_pick_file">اختيار ملف للفحص</button>
+              <button id="btn-native-file-scan" class="btn btn-secondary" data-i18n="btn_native_scan">فحص أندرويد العميق</button>
+              <button id="btn-check-updates" class="btn btn-secondary" data-i18n="btn_check_defs">تحديث القواعد</button>
+            </div>
+          </div>
+          <div id="threat-db-meta" class="info-grid"></div>
+          <div class="glass-card panel-card">
+            <h3 class="panel-title" data-i18n="threats_results_title">نتائج الفحص والأدلة</h3>
+            <div id="threat-scan-results" class="stack-list"></div>
+          </div>
+        </section>
+
+        <!-- 7. NEXUS ALERT -->
+        <section id="page-alerts" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>⚑ NEXUS ALERT — <span data-i18n="nav_alerts">التنبيهات الأمنية</span></h2>
+              <p data-i18n="alerts_subtitle">سجل الأحداث الأمنية المحلي وتنبيهات الخصوصية والشبكة المصنفة حسب الخطورة.</p>
+            </div>
+            <div class="action-row">
+              <select id="alert-severity-filter" class="input-field select-compact">
+                <option value="ALL">ALL</option>
+                <option value="CRITICAL">CRITICAL</option>
+                <option value="HIGH">HIGH</option>
+                <option value="MEDIUM">MEDIUM</option>
+                <option value="LOW">LOW</option>
+                <option value="INFORMATIONAL">INFORMATIONAL</option>
+              </select>
+              <button id="btn-test-notification" class="btn btn-secondary" data-i18n="btn_test_notif">اختبار إشعار</button>
+              <button id="btn-clear-alerts" class="btn btn-danger" data-i18n="btn_clear_log">مسح السجل</button>
+            </div>
+          </div>
+          <div id="alerts-feed" class="stack-list"></div>
+        </section>
+
+        <!-- 8. NEXUS SHIELD -->
+        <section id="page-vault" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>⚿ NEXUS SHIELD — <span data-i18n="nav_vault">حماية البيانات</span></h2>
+              <p data-i18n="vault_subtitle">Android Keystore، تشفير AES-GCM، قفل البصمة BiometricPrompt، وحماية الجلسة بـ PIN.</p>
+            </div>
+            <button id="btn-biometric-auth" class="btn btn-primary" data-i18n="btn_bio_verify">تحقق بالبصمة</button>
+          </div>
+          <div id="vault-status-grid" class="info-grid"></div>
+          <div class="glass-card panel-card">
+            <h3 class="panel-title" data-i18n="vault_pin_title">إدارة رمز القفل (PIN)</h3>
+            <div class="pin-controls">
+              <input type="password" id="pin-input" class="input-field" maxlength="8" inputmode="numeric" data-i18n-placeholder="ph_enter_pin" placeholder="أدخل رمز PIN (4-8 أرقام)" />
+              <button id="btn-save-pin" class="btn btn-primary" data-i18n="btn_set_pin">تعيين PIN</button>
+              <button id="btn-verify-pin" class="btn btn-secondary" data-i18n="btn_lock_now">قفل الجلسة الآن</button>
+            </div>
+            <p id="vault-lock-state" class="muted-note"></p>
+          </div>
+        </section>
+
+        <!-- 9. NEXUS RECOVERY -->
+        <section id="page-recovery" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>⟲ NEXUS RECOVERY — <span data-i18n="nav_recovery">مركز الاستعادة</span></h2>
+              <p data-i18n="recovery_subtitle">تصدير نسخ احتياطية مشفرة بـ AES-GCM مع التحقق من السلامة (SHA-256) واستعادتها دون إنترنت.</p>
+            </div>
+          </div>
+          <div class="glass-card panel-card">
+            <div class="recovery-grid">
+              <input type="password" id="backup-password" class="input-field" data-i18n-placeholder="ph_backup_pass" placeholder="كلمة مرور تشفير النسخة الاحتياطية" />
+              <div class="action-row">
+                <button id="btn-export-backup" class="btn btn-primary" data-i18n="btn_export_backup">تصدير نسخة مشفرة</button>
+                <button id="btn-export-report" class="btn btn-secondary" data-i18n="btn_export_json_report">تصدير التقرير الأمني</button>
+              </div>
+              <div class="action-row">
+                <input type="file" id="restore-file-input" accept=".aegis,.json" class="input-field" />
+                <button id="btn-restore-backup" class="btn btn-accent" data-i18n="btn_restore_backup">استعادة والتحقق</button>
+              </div>
+            </div>
+            <div id="recovery-log" class="stack-list"></div>
+          </div>
+        </section>
+
+        <!-- 10. SYSTEM MONITOR -->
+        <section id="page-monitor" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>▤ NEXUS SYSTEM MONITOR — <span data-i18n="nav_monitor">مراقب النظام</span></h2>
+              <p data-i18n="monitor_subtitle">حالة البطارية، التخزين، الذاكرة، إصدار أندرويد، وحالة كل وحدة دفاعية في النظام.</p>
+            </div>
+            <button id="btn-refresh-monitor" class="btn btn-primary" data-i18n="btn_refresh">تحديث البيانات</button>
+          </div>
+          <div id="monitor-hardware-grid" class="info-grid"></div>
+          <div class="glass-card panel-card">
+            <h3 class="panel-title" data-i18n="monitor_modules_title">حالة الوحدات الأمنية</h3>
+            <div id="monitor-modules-table" class="stack-list"></div>
+          </div>
+        </section>
+
+        <!-- 11. SETTINGS -->
+        <section id="page-settings" class="page">
+          <div class="page-header glass-card">
+            <div>
+              <h2>⚙ <span data-i18n="nav_settings">الإعدادات</span></h2>
+              <p data-i18n="settings_subtitle">إعدادات اللغة، القفل التلقائي، الوضع غير المتصل، وتشخيص جسر الاتصال.</p>
+            </div>
+          </div>
+          <div class="glass-card panel-card settings-grid">
+            <div class="setting-row">
+              <label for="settings-lang-select" data-i18n="lbl_language">لغة الواجهة</label>
+              <select id="settings-lang-select" class="input-field select-compact">
+                <option value="ar">العربية (RTL)</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+              </select>
+            </div>
+            <div class="setting-row">
+              <label for="settings-autolock-select" data-i18n="lbl_autolock">القفل التلقائي للجلسة</label>
+              <select id="settings-autolock-select" class="input-field select-compact">
+                <option value="0" data-i18n="opt_off">معطل</option>
+                <option value="60">60s</option>
+                <option value="180">3m</option>
+                <option value="300">5m</option>
+              </select>
+            </div>
+            <div class="setting-row">
+              <label for="settings-offline-toggle" data-i18n="lbl_strict_offline">فرض وضع عدم الاتصال التام (Offline-Only)</label>
+              <input type="checkbox" id="settings-offline-toggle" checked />
+            </div>
+            <div class="setting-row">
+              <span data-i18n="lbl_reset_data">مسح السجلات المحلية المؤقتة</span>
+              <button id="btn-reset-local-data" class="btn btn-danger btn-sm" data-i18n="btn_reset">إعادة ضبط</button>
+            </div>
+          </div>
+          <div class="glass-card panel-card">
+            <h3 class="panel-title" data-i18n="lbl_bridge_diag">تشخيص الجسر الأمني (WebView ↔ Kotlin)</h3>
+            <pre id="bridge-diag-box" class="code-box"></pre>
+          </div>
+        </section>
+
+        <!-- 12. ABOUT -->
+        <section id="page-about" class="page">
+          <div class="hero-card glass-card">
+            <div class="hero-info-col">
+              <span class="dz-chip">🇩🇿🦅 AEGIS NEXUS — ALGERIAN CYBER DEFENSE</span>
+              <h2>YOUR DEVICE. YOUR DATA. YOUR DIGITAL FORTRESS.</h2>
+              <p data-i18n="about_desc">منصة دفاع سيبراني معيارية مصممة وفق مبادئ Defense in Depth و Zero Trust و Privacy by Design. يلتزم النظام بالشفافية الكاملة واحترام قيود Android Sandbox دون اختلاق نتائج أو الادعاء بحماية مطلقة.</p>
+              <p class="motto-highlight">"ONE DEVICE. MULTIPLE DEFENSE LAYERS. ONE POWERFUL SHIELD."</p>
+            </div>
+          </div>
+          <div class="glass-card panel-card">
+            <h3 class="panel-title" data-i18n="about_matrix_title">مصفوفة شفافية التنفيذ (الواجهة مقابل المحرك الأصلي)</h3>
+            <div id="implementation-matrix" class="stack-list"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <div id="vpn-consent-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card">
+      <h3>◉ <span data-i18n="vpn_modal_title">تفويض خدمة VPN المحلية</span></h3>
+      <p data-i18n="vpn_modal_desc">يتطلب تفعيل حماية الشبكة المحلية عبر Android VpnService موافقتك الصريحة وتأكيد نافذة نظام أندرويد. لا يتم إرسال أي بيانات خارج جهازك.</p>
+      <div class="action-row">
+        <button id="btn-confirm-vpn" class="btn btn-primary" data-i18n="btn_authorize">موافق وتفويض</button>
+        <button id="btn-cancel-vpn" class="btn btn-secondary" data-i18n="btn_cancel">إلغاء</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="pin-lock-overlay" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card lock-card">
+      <div class="lock-icon">⚿</div>
+      <h3>AEGIS NEXUS</h3>
+      <p data-i18n="lock_prompt">الجلسة مقفلة — أدخل رمز PIN للمتابعة</p>
+      <input type="password" id="unlock-pin-input" class="input-field" maxlength="8" inputmode="numeric" placeholder="PIN" />
+      <p id="unlock-error" class="error-text"></p>
+      <button id="btn-unlock-app" class="btn btn-primary" data-i18n="btn_unlock">فتح القفل</button>
+    </div>
+  </div>
+
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
